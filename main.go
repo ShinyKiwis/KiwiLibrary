@@ -91,6 +91,7 @@ func main() {
     // Layout for screen wider than 100 cells
 	grid.AddItem(bookList, 1, 0, 1, 3, 0, 100, false)
 
+    // Function for selecting books
 	selectItem(app, bookList,fileNames)
 
     //Todo
